@@ -1,0 +1,325 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 11, 2016, 11:59:50 AM
+    Author     : conta_000
+*/
+
+/** Main Structure **/
+body{
+    overflow-x: hidden;
+    color: white;
+    text-align: center;
+}
+.navbar-inverse{
+    background-color: rgba(18,18,18,0.9);
+}
+.navbar-inverse a{
+    color: #ff5317;
+}
+.navbar-default{
+    padding: 15px 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(156,165,179,0.3);
+    transition: padding 0.3s;-moz-transition: padding 0.3s;-webkit-transition: padding 0.3s;-o-transition: padding 0.3s;
+
+}
+.navbar-default.navbar-shrink {
+    padding: 10px 0;
+    background-color: #121212;
+    box-shadow: 0 0px 22px 0px rgba(0, 0, 0, 0.7);-moz-box-shadow: 0 0px 22px 0px rgba(0, 0, 0, 0.7);-webbkit-box-shadow: 0 0px 22px 0px rgba(0, 0, 0, 0.7);-o-box-shadow: 0 0px 22px 0px rgba(0, 0, 0, 0.7);
+    /*border-bottom: 1px solid rgba(121, 215, 91, 0.3);*/
+}
+
+.navbar-default.navbar-shrink .navbar-brand {
+    background: url("../img/Cope-Logo-Web.png") no-repeat scroll 0 10px / 103px auto rgba(0, 0, 0, 0);
+    font-size: 1.5em;
+    width: 137px;
+}
+/*.imgLogo{
+    max-width: 125px;
+    max-height: 125px;
+    margin-top: -15px;
+}*/
+.btn-secondary{
+    background-color: transparent;
+    border-color: #ff5317;
+    color: #ff5317;
+}
+.btn-secondary:hover{
+    color: #fff;
+}
+li.btn-secondary{
+    background-color: transparent;
+    border-color: #ff5317;
+    color: #ff5317;
+}
+li.btn-secondary:hover{
+    color: #ff5317;
+    background-color: #121212;
+}
+.intro-text{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.intro-text.intro-heading{
+    margin-bottom: 80px;
+    line-height: 75px;
+    word-spacing: 0px;
+    margin-bottom: 25px;
+    line-spacing: 50px;
+    word-spacing: 0px;
+    background: rgba(255,255,255,0.4);
+    padding: 15px;
+    border-radius: 15px;
+}
+header{
+    background-color: #121212;
+    background-attachment: scroll;
+    background-image: url('../img/banner.jpg'), url('../img/banner.png');
+    background-position: center center;
+    background-size: cover;
+    margin: 80px 0 0 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+header.full{
+    background-color: #121212;
+    background-attachment: scroll;
+    background-image: url('../img/banner.jpg'), url('../img/banner.png');
+    background-position: center center;
+    width: 100%;
+    height: 100;
+    background-size: cover;
+    margin: 80px 0 0 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+header.full.empty{
+    background-color: transparent;
+    background-attachment: scroll;
+    background-image: none;
+    background-position: center center;
+    width: 100%;
+    height: 100;
+    background-size: cover;
+    margin: 80px 0 0 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.down-arrow{
+    background: url("../img/down-arrow.png") no-repeat scroll 50% rgba(0,0,0,0);
+    bottom: 52px;
+    display: block;
+    height: 52px;
+    left: 0;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.up-arrow{
+    background: url("../img/up-arrow.png") no-repeat scroll 50% rgba(0,0,0,0);
+    top: 0px;
+    display: block;
+    height: 52px;
+    left: 0;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.section-heading{
+    
+}
+.section-content{
+    
+}
+.business-logo{
+    height: 215px;
+    margin: 15px 15px 15px 20px;
+    overflow: hidden;
+    padding: 6px;
+    vertical-align: middle;
+    width: 215px;
+    float: left;
+}
+.business-details{
+    height: auto;
+    float: left;
+    width: 300px;
+    padding: 10px 5px;
+}
+
+.navbar-default {
+    border-color: #121212;
+    background-color: transparent;
+}
+.navbar-default .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    background: url("../img/Cope-Logo-Web.png") no-repeat scroll 0 10px / 103px auto rgba(0, 0, 0, 0);
+    width: 207px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #ff5317;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.nav #open_menu i {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+
+/* fix for responsive */
+.nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after {
+    clear: none;
+}
+.collapse {
+    display: block;
+}
+.nav > li {
+    display: inline-block;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #121212;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #121212;
+}
+
+.navbar-default .nav li {
+    text-align: center;
+}
+
+.navbar-default .nav li a {
+    /*text-transform: uppercase;*/
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ff5317;
+    font-size: 12px;
+    transition: 0.3s all;-moz-transition: 0.3s all;-webkit-transition: 0.3s all;-o-transition: 0.3s all;
+}
+
+.navbar-default .nav li a:hover/*,
+.navbar-default .nav li a:focus*/ {
+    outline: 0;
+    color: #ff5317;
+    transition: 0.3s all;-moz-transition: 0.3s all;-webkit-transition: 0.3s all;-o-transition: 0.3s all;
+}
+
+.navbar-default .nav li a:focus {
+    color: #ff5317;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #ff5317;
+    background: none;
+    transition: 0.3s all;-moz-transition: 0.3s all;-webkit-transition: 0.3s all;-o-transition: 0.3s all;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #ff5317;
+    background: none;
+    transition: 0.3s all;-moz-transition: 0.3s all;-webkit-transition: 0.3s all;-o-transition: 0.3s all;
+}
+
+.navbar-default .nav li a.fancy {
+    background: #121212;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 20px auto;
+    width: 140px;
+    transition: 0.3s all;-moz-transition: 0.3s all;-webkit-transition: 0.3s all;-o-transition: 0.3s all;
+}
+.navbar-default .navbar-nav>.active>a.fancy {
+    background: #121212;
+    color: #fff;
+}
+.navbar-default .nav li a.fancy:hover {
+    color: #ff5317;
+    background: #121212;
+    transition: 0.3s all;-moz-transition: 0.3s all;-webkit-transition: 0.3s all;-o-transition: 0.3s all;
+}
+/** MENU **/
+#menu {
+    background: none repeat scroll 0 0 #20242b;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-transform: uppercase;
+    overflow-x: hidden;
+    width: 0px;
+    z-index: 999;
+    transition: 1s all;
+    -moz-transition: 1s all;
+    -webkit-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+#menu.active {
+    width: 275px;
+    transition: 1s all;
+    -moz-transition: 1s all;
+    -webkit-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+#menu ul {
+    width: 210px;
+    display:block;
+    list-style: none;
+    margin: 155px 0 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+#menu ul i {
+    color: #38b5ed;
+}
+
+#menu ul li {
+    padding: 10px 0 10px 20px;
+    border-top: 1px solid #1b1f25;
+    background: rgba(30,34,41,0);
+    transition: 0.7s all;-moz-transition: 0.7s all;-webkit-transition: 0.7s all;-o-transition: 0.7s all;
+}
+#menu ul li:hover {
+    padding: 10px 0 10px 28px;
+    background: rgba(30,34,41,1);
+    transition: 0.7s all;-moz-transition: 0.7s all;-webkit-transition: 0.7s all;-o-transition: 0.7s all;
+}
+#menu ul li a {
+    color: #fff;
+}
